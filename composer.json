@@ -1,0 +1,25 @@
+{
+    "name": "fastwf/api",
+    "description": "API declaration and utility class used in Fast Web Framework context.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fastwf\\Api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fastwf\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David BELBEZE",
+            "email": "david.belbeze@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
