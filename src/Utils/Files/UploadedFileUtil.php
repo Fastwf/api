@@ -89,48 +89,48 @@ class UploadedFileUtil {
      * (
      *     [main] => Fastwf\Api\Model\UploadedFile Object
      *         (
-     *             [name] => head.png
-     *             [type] => image/png
-     *             [size] => 3652
-     *             [path] => /tmp/phpWW5yhj
-     *             [error] => 0
+     *             [clientFilename:Fastwf\Api\Model\UploadedFile:private] => main.png
+     *             [clientMediaType:Fastwf\Api\Model\UploadedFile:private] => image/png
+     *             [size:Fastwf\Api\Model\UploadedFile:private] => 3652
+     *             [path:Fastwf\Api\Model\UploadedFile:private] => /tmp/phpWW5yhj
+     *             [error:Fastwf\Api\Model\UploadedFile:private] => 0
      *         )
      *     [secondary] => Array
      *         (
      *             [index] => Fastwf\Api\Model\UploadedFile Object
      *                 (
-     *                     [name] => index.svg
-     *                     [type] => image/svg+xml
-     *                     [size] => 4724
-     *                     [path] => /tmp/phpHwoHYj
-     *                     [error] => 0
+     *                     [clientFilename:Fastwf\Api\Model\UploadedFile:private] => index.svg
+     *                     [clientMediaType:Fastwf\Api\Model\UploadedFile:private] => image/svg+xml
+     *                     [size:Fastwf\Api\Model\UploadedFile:private] => 4724
+     *                     [path:Fastwf\Api\Model\UploadedFile:private] => /tmp/phpHwoHYj
+     *                     [error:Fastwf\Api\Model\UploadedFile:private] => 0
      *                 )
      *             [appendix] => Fastwf\Api\Model\UploadedFile Object
      *                 (
-     *                     [name] => appendix.jpg
-     *                     [type] => image/jpeg
-     *                     [size] => 283926
-     *                     [path] => /tmp/phpvIMFHj
-     *                     [error] => 0
+     *                     [clientFilename:Fastwf\Api\Model\UploadedFile:private] => appendix.jpg
+     *                     [clientMediaType:Fastwf\Api\Model\UploadedFile:private] => image/jpeg
+     *                     [size:Fastwf\Api\Model\UploadedFile:private] => 283926
+     *                     [path:Fastwf\Api\Model\UploadedFile:private] => /tmp/phpvIMFHj
+     *                     [error:Fastwf\Api\Model\UploadedFile:private] => 0
      *                 )
      *         )
      *     [others] => Array
      *         (
      *             [0] => Fastwf\Api\Model\UploadedFile Object
      *                 (
-     *                     [name] => otherA.jpg
-     *                     [type] => image/jpeg
-     *                     [size] => 283926
-     *                     [path] => /tmp/php6I9Xil
-     *                     [error] => 0
+     *                     [clientFilename:Fastwf\Api\Model\UploadedFile:private] => otherA.jpg
+     *                     [clientMediaType:Fastwf\Api\Model\UploadedFile:private] => image/jpeg
+     *                     [size:Fastwf\Api\Model\UploadedFile:private] => 283926
+     *                     [path:Fastwf\Api\Model\UploadedFile:private] => /tmp/php6I9Xil
+     *                     [error:Fastwf\Api\Model\UploadedFile:private] => 0
      *                 )
      *             [1] => Fastwf\Api\Model\UploadedFile Object
      *                 (
-     *                     [name] => otherB.jpg
-     *                     [type] => image/jpeg
-     *                     [size] => 283926
-     *                     [path] => /tmp/phppftaJj
-     *                     [error] => 0
+     *                     [clientFilename:Fastwf\Api\Model\UploadedFile:private] => otherB.jpg
+     *                     [clientMediaType:Fastwf\Api\Model\UploadedFile:private] => image/jpeg
+     *                     [size:Fastwf\Api\Model\UploadedFile:private] => 283926
+     *                     [path:Fastwf\Api\Model\UploadedFile:private] => /tmp/phppftaJj
+     *                     [error:Fastwf\Api\Model\UploadedFile:private] => 0
      *                 )
      *         )
      * )
