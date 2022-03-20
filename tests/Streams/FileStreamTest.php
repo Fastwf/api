@@ -177,6 +177,10 @@ class FileStreamTest extends TestCase
         {
             \fclose($this->resource);
         }
+        if (file_exists(self::PATH))
+        {
+            unlink(self::PATH);
+        }
     }
 
 }
