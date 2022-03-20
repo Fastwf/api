@@ -2,6 +2,7 @@
 
 namespace Fastwf\Api\Model;
 
+use Fastwf\Api\Streams\FileStream;
 use Psr\Http\Message\UploadedFileInterface;
 
 /**
@@ -68,8 +69,11 @@ class UploadedFile implements UploadedFileInterface
 
     public function getStream()
     {
-        // TODO
-        throw new \Exception("Not implemented");
+        // Create an open the stream
+        $stream = new FileStream($this->path, 'r');
+        $stream->rewind();
+
+        return $stream;
     }
 
     public function moveTo($targetPath)
