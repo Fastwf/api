@@ -126,10 +126,10 @@ class FileStream implements StreamInterface
      */
     public function detach()
     {
-        $stream = $this->stream;
+        $detachedStream = $this->stream;
         $this->stream = null;
 
-        return $stream;
+        return $detachedStream;
     }
 
     public function getSize()
