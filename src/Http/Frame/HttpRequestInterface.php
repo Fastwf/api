@@ -11,6 +11,7 @@ use Fastwf\Api\Utils\ArrayProxy;
  * @property-read string $method The request method corresponding to the REQUEST_METHOD.
  * @property-read ArrayProxy $query the array of query parameters ($_GET)
  * @property-read ArrayProxy $form the array that contains the parsed form data ($_POST).
+ * @property-read ArrayProxy $files the array that contains the parsed form data ($_FILES).
  * @property-read string $body the sequence read from body request.
  * @property-read array $json the json as array association extracted from body request.
  * @property-read resource $stream the stream of the body request.
